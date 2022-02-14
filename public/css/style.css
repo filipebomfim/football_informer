@@ -59,3 +59,12 @@
 .topbar{
     background-image: linear-gradient(to right, #1A3163, #24477D, #325285);
 }
+
+
+.table-today td{
+    border-top: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
