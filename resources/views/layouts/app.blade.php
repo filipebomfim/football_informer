@@ -34,7 +34,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <ul class="navbar-nav sidebar sidebar-dark accordion " id="accordionSidebar">
+        <ul class="navbar-nav sidebar sidebar-dark accordion toggled" id="accordionSidebar">
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <img src="{{asset('img/logo_white.png')}}" alt="" width="150" height="150" class="d-inline-block align-text-top">
@@ -58,42 +58,42 @@
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2002.png')}}" alt="" width="48" height="48">
-                    <span>Bundesliga</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2015.png')}}" alt="" width="48" height="48">
-                    <span>Ligue 1</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2003.png')}}" alt="" width="48" height="48">
-                    <span>Eredivisie</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2019.png')}}" alt="" width="48" height="48">
-                    <span>Série A</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/60.png')}}" alt="" width="48" height="48">
-                    <span>Primeira Liga</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2014.png')}}" alt="" width="48" height="48">
-                    <span>La Liga</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2021.png')}}" alt="" width="48" height="48">
-                    <span>Premier League</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/12.png')}}" alt="" width="48" height="48">
-                    <span>Championship</span></a>
+                </a>
             </li>
 
             <!-- Divider -->
@@ -106,12 +106,12 @@
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/2013.png')}}" alt="" width="48" height="48">
-                    <span>Brasileirão Série A</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/102415.png')}}" alt="" width="48" height="48">
-                    <span>Libertadores da América</span></a>
+                </a>
             </li>
 
             <!-- Divider -->
@@ -124,25 +124,19 @@
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/1301394.png')}}" alt="" width="48" height="48">
-                    <span>UEFA Champions League</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/1301396.png')}}" alt="" width="48" height="48">
-                    <span>UEFA Europa League</span></a>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
                     <img src="{{asset('img/champs/1301432.png')}}" alt="" width="48" height="48">
-                    <span>Copa do Mundo FIFA</span></a>
+                </a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
         </ul>
         <!-- End of Sidebar -->
 
