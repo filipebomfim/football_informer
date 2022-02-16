@@ -41,8 +41,13 @@
     z-index: 1000;
 }
 
+
 .topbar .nav-item span{
     color: white;
+}
+
+.sidebar .nav-link:hover{
+    background-color: #32578B;
 }
 
 .logo{

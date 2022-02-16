@@ -34,7 +34,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav sidebar sidebar-dark accordion " id="accordionSidebar">
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <img src="{{asset('img/logo_white.png')}}" alt="" width="150" height="150" class="d-inline-block align-text-top">
@@ -47,17 +47,96 @@
                     <i class='bx bx-home align-middle' style='color:#ffffff;font-size:20px' ></i>
                     <span class="align-bottom">Home</span></a>
             </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider">
+
             <!-- Heading -->
-            <div class="sidebar-heading">
-                Campeonatos
+            <div class="sidebar-heading mb-2">
+                Europa
             </div>
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class='bx bxl-php' style='color:#ffffff' ></i>
-                    <span>Campeonato X</span></a>
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2002.png')}}" alt="" width="48" height="48">
+                    <span>Bundesliga</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2015.png')}}" alt="" width="48" height="48">
+                    <span>Ligue 1</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2003.png')}}" alt="" width="48" height="48">
+                    <span>Eredivisie</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2019.png')}}" alt="" width="48" height="48">
+                    <span>Série A</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/60.png')}}" alt="" width="48" height="48">
+                    <span>Primeira Liga</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2014.png')}}" alt="" width="48" height="48">
+                    <span>La Liga</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2021.png')}}" alt="" width="48" height="48">
+                    <span>Premier League</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/12.png')}}" alt="" width="48" height="48">
+                    <span>Championship</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading mb-2">
+                América
+            </div>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/2013.png')}}" alt="" width="48" height="48">
+                    <span>Brasileirão Série A</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/102415.png')}}" alt="" width="48" height="48">
+                    <span>Libertadores da América</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading mb-2">
+                Interclubes e Seleções
+            </div>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/1301394.png')}}" alt="" width="48" height="48">
+                    <span>UEFA Champions League</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/1301396.png')}}" alt="" width="48" height="48">
+                    <span>UEFA Europa League</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2" href="#">
+                    <img src="{{asset('img/champs/1301432.png')}}" alt="" width="48" height="48">
+                    <span>Copa do Mundo FIFA</span></a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
             <!-- Sidebar Toggler (Sidebar) -->
@@ -95,8 +174,8 @@
                         
                         <!-- Nav Item - Jogos de Hoje -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class='bx bx-calendar mr-2' style='color:green;font-size:18px'  ></i>
+                            <a class="nav-link" href="{{route('matches.today')}}">
+                                <i class='bx bx-calendar mr-2' style='color:green;font-size:18px'></i>
                                 <span class="align-top">Hoje</span></a>
                         </li>
 
