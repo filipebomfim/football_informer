@@ -92,7 +92,7 @@ class MatchController extends Controller
     public function today(){
         $response = $this->match->getMatchesByDate(date("Y-m-d"),date("Y-m-d"));
         //dd($response);        
-        return view('matches.index',['matches'=>$response['matches']]);
+        return view('matches.index',['matches'=>$response->matches]);
     }
     
 }

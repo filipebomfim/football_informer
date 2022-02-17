@@ -36,7 +36,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav sidebar sidebar-dark accordion toggled" id="accordionSidebar">
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('index')}}">
                 <img src="{{asset('img/logo_white.png')}}" alt="" width="150" height="150" class="d-inline-block align-text-top">
             </a>
             <!-- Divider -->
@@ -92,7 +92,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
-                    <img src="{{asset('img/champs/12.png')}}" alt="" width="48" height="48">
+                    <img src="{{asset('img/champs/2016.png')}}" alt="" width="48" height="48">
                 </a>
             </li>
 
@@ -110,7 +110,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
-                    <img src="{{asset('img/champs/102415.png')}}" alt="" width="48" height="48">
+                    <img src="{{asset('img/champs/2152.png')}}" alt="" width="48" height="48">
                 </a>
             </li>
 
@@ -123,7 +123,7 @@
             </div>
             <li class="nav-item">
                 <a class="nav-link p-2" href="#">
-                    <img src="{{asset('img/champs/1301394.png')}}" alt="" width="48" height="48">
+                    <img src="{{asset('img/champs/2001.png')}}" alt="" width="48" height="48">
                 </a>
             </li>
             <li class="nav-item">
